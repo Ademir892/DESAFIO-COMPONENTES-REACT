@@ -1,0 +1,39 @@
+
+.dcr-coments-container{
+    background-color: var(--dcr-color-bg-secondary);
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    
+
+}
+
+.dcr-coments-container h3 {
+    color: var(--dcr-color-font-primary);
+    font-size: 20px;
+}
+
+.dcr-coment{
+    background-color: var(--dcr-color-bg-secondary);
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+}
+
+.dcr-coment p {
+    background-color: var( --dcr-color-bg-tertiary);
+    color: var(--dcr-color-font-secundary);
+    border: 1px solid blue;
+    border-radius: 12px;
+    width: 100%;
+    display: flex;
+    padding: 15px 15px;
+}
+
+@media (min-width: 576px){
+    .dcr-coment{
+        display: flex;
+        justify-content: center;
+        height: 74x;
+    }
+}

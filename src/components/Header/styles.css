@@ -1,0 +1,22 @@
+header {
+    width: 100%;
+    height: 70px;
+    background-color: var(--dcr-color-bg-primary);
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 20px;
+    color: var(--dcr-color-font-tertiary);
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 960px){
+    header h1 {
+        font-size: 24px;
+    }
+}
